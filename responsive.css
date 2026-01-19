@@ -1,4 +1,4 @@
-@media screen and (max-width: 992px){
+@media screen and (max-width: 576px){
 .about-section{
     justify-content: center;
     align-items: center;
@@ -19,11 +19,30 @@
     "interview"
     "resources";
 }
-.feature-container{
+.episodes{
     justify-content: center;
     display: grid;
     grid-column: 1;
     grid-row: 3;
+    
+}
+.host{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: grid;
+    grid-column: 1;
+    grid-row: 3;
+    width: 90%;
+}
+.footer{
+    justify-content: center;
+    height: 300px;
+    max-width: 576px;
+}
+.social{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     
 }
 

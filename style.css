@@ -164,4 +164,40 @@ logo{
      justify-content: center;
      margin-left: 350px;
 }
-.
+.card{
+    /* border: 10px #f2f0f4; */
+    background-color: #341b51;
+     padding: 20px; 
+     border-radius: 20px;
+    justify-content: center;
+}
+.episodes{
+    gap: 30px;
+}
+.host{
+    background-color: #2b1347;
+    width: 1000px;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 20px;
+}
+.icons{
+    border: 1px #f2f0f4;
+    gap: 50px;
+    align-items: center;
+}
+.footer{
+    justify-content: center;
+    align-items: center;
+    background-image: url(./B13-A02-TechWave/assets/footer-bg.png);
+    height: 400px;
+    
+}
+.social{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    
+}
