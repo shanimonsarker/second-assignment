@@ -63,8 +63,8 @@ logo{
 .mic{
     background-image: url(./B13-A02-TechWave/assets/hero-circle.png);
     background-repeat: no-repeat;
-     background-position: center; 
-     display: flex; 
+    background-position: center; 
+    display: flex; 
     align-items: center; 
     justify-content: center;
     size: 50px;
@@ -73,7 +73,7 @@ logo{
 }
 .banner-img{
     background-image: url(./B13-A02-TechWave/assets/hero-bg.png);
-    background-size: 100%;
+    background-size: 100% ;
     background-repeat: no-repeat;
     
 }
