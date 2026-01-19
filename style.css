@@ -92,4 +92,76 @@ logo{
 .banner-text {
     justify-content: center;
     align-content: center;
+    
 }
+/* about section */
+.about{
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+    align-content: center;
+}
+.numbers{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.NA{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+/* why choose section */
+.container>*{
+    /* display: flex; */
+    border: 10px #f2f0f4;
+    background-color: #341b51;
+     padding: 20px; 
+     border-radius: 20px;
+}
+.audio{
+    grid-area: audio;
+}
+.mobile{
+    grid-area: mobile;
+}
+.global{
+    grid-area: global;
+}
+.interview{
+    grid-area: interview;
+}
+.resources{
+    grid-area: resources;
+}
+.why{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.container{
+    margin-left: 200px;
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+    "audio mobile mobile"
+    "audio global global"
+    "interview interview resources";
+}
+/* episodes and host */
+.min{
+    color: #00ff88;
+}
+.time{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.feature-container>*{
+     display: flex; 
+     justify-content: center;
+     margin-left: 350px;
+}
+.

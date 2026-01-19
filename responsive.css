@@ -1,0 +1,31 @@
+@media screen and (max-width: 992px){
+.about-section{
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    justify-content: center;
+}
+.numbers{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.container{
+    justify-content: center;
+    grid-template-areas: 
+    "audio"
+    "mobile"
+    "global"
+    "interview"
+    "resources";
+}
+.feature-container{
+    justify-content: center;
+    display: grid;
+    grid-column: 1;
+    grid-row: 3;
+    
+}
+
+
+}
