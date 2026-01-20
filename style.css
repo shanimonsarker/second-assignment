@@ -75,12 +75,21 @@ logo{
     justify-content: center;
     size: 50px;
     background-size: 250px;
+    padding: 35px;
     
+    
+}
+.new{
+    background-color: #00ff88;
+    border-radius: 20px;
+    position: relative;
+
 }
 .banner-img{
     background-image: url(./B13-A02-TechWave/assets/hero-bg.png);
     background-size: 100% ;
     background-repeat: no-repeat;
+    padding-top: 50px;
     
 }
 .banner-subscribe{
@@ -101,11 +110,14 @@ logo{
     
 }
 /* about section */
-.about{
+#about{
     justify-content: center;
     align-items: center;
     font-weight: 200;
     align-content: center;
+}
+.about-section>*{
+justify-content: center;
 }
 .numbers{
     display: flex;
