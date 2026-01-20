@@ -47,6 +47,7 @@ justify-content: space-between;
     grid-template-columns: repeat(2, 1fr);
 }
 .container{
+    max-width: 80%;
     justify-content: center;
     grid-template-areas: 
     "audio"
