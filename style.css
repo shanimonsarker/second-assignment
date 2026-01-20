@@ -210,15 +210,4 @@ logo{
 
 
 
-.micro-container{
-    background-image: url(./B13-A02-TechWave/assets/hero-circle.png);
-    background-repeat: no-repeat;
-    height: 200px;
-    width: 200px;
-}
 
-
-.micro-container, .micro{
-display: flex;
-justify-content: center;
-}
