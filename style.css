@@ -19,13 +19,16 @@
     background-size: 100%;
     
 }
-.primary-button{
+.primary-button, .btn {
     background: linear-gradient(135deg, #fcea5f, #ea34cf, #5c0bb4);
      margin: 20px;     
      border-radius: 10px;
      padding-right: 15px;
      padding-left: 15px;
      color: white;
+}
+.body>*{
+    justify-content: center;
 }
 
 /* navbar related styles */
@@ -46,6 +49,9 @@ logo{
     font-size: 16px;
     font-weight: 300;
     
+}
+.hamburger{
+    display: none;
 }
 .subscribe {
     background: none;
@@ -200,4 +206,19 @@ logo{
     align-content: center;
     gap: 10px;
     
+}
+
+
+
+.micro-container{
+    background-image: url(./B13-A02-TechWave/assets/hero-circle.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+}
+
+
+.micro-container, .micro{
+display: flex;
+justify-content: center;
 }

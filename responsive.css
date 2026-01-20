@@ -1,5 +1,28 @@
+
+
+
 @media screen and (max-width: 576px){
-.about-section{
+
+
+.nav-bar{
+justify-content: space-between;
+}
+.menus{
+    display: none;
+}
+.logo{
+    display: flex;
+    margin-left: 0;
+}
+.primary-button{
+    display: none;
+}
+.hamburger{
+    display: ;
+}
+
+
+ .about-section{
     justify-content: center;
     align-items: center;
 }
